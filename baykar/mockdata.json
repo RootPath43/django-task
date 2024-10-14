@@ -1,0 +1,1830 @@
+[
+{
+    "model": "auth.group",
+    "fields": {
+        "name": "Avionics",
+        "permissions": [
+            [
+                "add_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "change_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "delete_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "view_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "add_part",
+                "api",
+                "part"
+            ],
+            [
+                "change_part",
+                "api",
+                "part"
+            ],
+            [
+                "delete_part",
+                "api",
+                "part"
+            ],
+            [
+                "view_part",
+                "api",
+                "part"
+            ],
+            [
+                "add_production",
+                "api",
+                "production"
+            ],
+            [
+                "change_production",
+                "api",
+                "production"
+            ],
+            [
+                "delete_production",
+                "api",
+                "production"
+            ],
+            [
+                "view_production",
+                "api",
+                "production"
+            ],
+            [
+                "add_group",
+                "auth",
+                "group"
+            ],
+            [
+                "change_group",
+                "auth",
+                "group"
+            ],
+            [
+                "delete_group",
+                "auth",
+                "group"
+            ],
+            [
+                "view_group",
+                "auth",
+                "group"
+            ],
+            [
+                "add_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "change_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "delete_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "view_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "add_user",
+                "auth",
+                "user"
+            ],
+            [
+                "change_user",
+                "auth",
+                "user"
+            ],
+            [
+                "delete_user",
+                "auth",
+                "user"
+            ],
+            [
+                "view_user",
+                "auth",
+                "user"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "fields": {
+        "name": "Fuselage",
+        "permissions": [
+            [
+                "add_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "change_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "delete_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "view_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "add_part",
+                "api",
+                "part"
+            ],
+            [
+                "change_part",
+                "api",
+                "part"
+            ],
+            [
+                "delete_part",
+                "api",
+                "part"
+            ],
+            [
+                "view_part",
+                "api",
+                "part"
+            ],
+            [
+                "add_production",
+                "api",
+                "production"
+            ],
+            [
+                "change_production",
+                "api",
+                "production"
+            ],
+            [
+                "delete_production",
+                "api",
+                "production"
+            ],
+            [
+                "view_production",
+                "api",
+                "production"
+            ],
+            [
+                "add_group",
+                "auth",
+                "group"
+            ],
+            [
+                "change_group",
+                "auth",
+                "group"
+            ],
+            [
+                "delete_group",
+                "auth",
+                "group"
+            ],
+            [
+                "view_group",
+                "auth",
+                "group"
+            ],
+            [
+                "add_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "change_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "delete_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "view_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "add_user",
+                "auth",
+                "user"
+            ],
+            [
+                "change_user",
+                "auth",
+                "user"
+            ],
+            [
+                "delete_user",
+                "auth",
+                "user"
+            ],
+            [
+                "view_user",
+                "auth",
+                "user"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "fields": {
+        "name": "Wing",
+        "permissions": [
+            [
+                "add_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "change_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "delete_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "view_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "add_part",
+                "api",
+                "part"
+            ],
+            [
+                "change_part",
+                "api",
+                "part"
+            ],
+            [
+                "delete_part",
+                "api",
+                "part"
+            ],
+            [
+                "view_part",
+                "api",
+                "part"
+            ],
+            [
+                "add_production",
+                "api",
+                "production"
+            ],
+            [
+                "change_production",
+                "api",
+                "production"
+            ],
+            [
+                "delete_production",
+                "api",
+                "production"
+            ],
+            [
+                "view_production",
+                "api",
+                "production"
+            ],
+            [
+                "add_group",
+                "auth",
+                "group"
+            ],
+            [
+                "change_group",
+                "auth",
+                "group"
+            ],
+            [
+                "delete_group",
+                "auth",
+                "group"
+            ],
+            [
+                "view_group",
+                "auth",
+                "group"
+            ],
+            [
+                "add_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "change_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "delete_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "view_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "add_user",
+                "auth",
+                "user"
+            ],
+            [
+                "change_user",
+                "auth",
+                "user"
+            ],
+            [
+                "delete_user",
+                "auth",
+                "user"
+            ],
+            [
+                "view_user",
+                "auth",
+                "user"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "fields": {
+        "name": "Tail",
+        "permissions": [
+            [
+                "add_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "change_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "delete_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "view_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "add_part",
+                "api",
+                "part"
+            ],
+            [
+                "change_part",
+                "api",
+                "part"
+            ],
+            [
+                "delete_part",
+                "api",
+                "part"
+            ],
+            [
+                "view_part",
+                "api",
+                "part"
+            ],
+            [
+                "add_production",
+                "api",
+                "production"
+            ],
+            [
+                "change_production",
+                "api",
+                "production"
+            ],
+            [
+                "delete_production",
+                "api",
+                "production"
+            ],
+            [
+                "view_production",
+                "api",
+                "production"
+            ],
+            [
+                "add_group",
+                "auth",
+                "group"
+            ],
+            [
+                "change_group",
+                "auth",
+                "group"
+            ],
+            [
+                "delete_group",
+                "auth",
+                "group"
+            ],
+            [
+                "view_group",
+                "auth",
+                "group"
+            ],
+            [
+                "add_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "change_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "delete_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "view_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "add_user",
+                "auth",
+                "user"
+            ],
+            [
+                "change_user",
+                "auth",
+                "user"
+            ],
+            [
+                "delete_user",
+                "auth",
+                "user"
+            ],
+            [
+                "view_user",
+                "auth",
+                "user"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "fields": {
+        "name": "Assembly",
+        "permissions": [
+            [
+                "add_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "change_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "delete_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "view_aircraft",
+                "api",
+                "aircraft"
+            ],
+            [
+                "add_part",
+                "api",
+                "part"
+            ],
+            [
+                "change_part",
+                "api",
+                "part"
+            ],
+            [
+                "delete_part",
+                "api",
+                "part"
+            ],
+            [
+                "view_part",
+                "api",
+                "part"
+            ],
+            [
+                "add_production",
+                "api",
+                "production"
+            ],
+            [
+                "change_production",
+                "api",
+                "production"
+            ],
+            [
+                "delete_production",
+                "api",
+                "production"
+            ],
+            [
+                "view_production",
+                "api",
+                "production"
+            ],
+            [
+                "add_group",
+                "auth",
+                "group"
+            ],
+            [
+                "change_group",
+                "auth",
+                "group"
+            ],
+            [
+                "delete_group",
+                "auth",
+                "group"
+            ],
+            [
+                "view_group",
+                "auth",
+                "group"
+            ],
+            [
+                "add_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "change_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "delete_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "view_permission",
+                "auth",
+                "permission"
+            ],
+            [
+                "add_user",
+                "auth",
+                "user"
+            ],
+            [
+                "change_user",
+                "auth",
+                "user"
+            ],
+            [
+                "delete_user",
+                "auth",
+                "user"
+            ],
+            [
+                "view_user",
+                "auth",
+                "user"
+            ]
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$JXpRjP2aXTSP3GgoiKVLQT$1kbZK5aX8wE3Q3dST+/6PyF6umyqVJhcE/JxscDTeGg=",
+        "last_login": "2024-10-14T17:27:54.093Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-10-12T13:14:31.992Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$tvvu0P8Qf51NfU3Xh4dWCV$XwpKAAPNeglbhidgvrP2Kj4ibCDzGV1VM2uu20huHeE=",
+        "last_login": "2024-10-14T17:07:51Z",
+        "is_superuser": false,
+        "username": "wing",
+        "first_name": "Mr. Wing",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-12T13:43:30Z",
+        "groups": [
+            [
+                "Wing"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$VmBsIc117ex8wq1Lu9iU2x$sRo+u2bRxs8WkyCSFr6irAK75YIXjS0VFkz/cU6Y4So=",
+        "last_login": "2024-10-14T17:07:09Z",
+        "is_superuser": false,
+        "username": "fuselage",
+        "first_name": "Mr. Fuselage",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-12T13:45:01Z",
+        "groups": [
+            [
+                "Fuselage"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$ay4prtCe7Y0MAiTE2NnDzB$/XmidxdtbUVd1vJo6h5zr+foei0P/hUIj4lkppgD1TQ=",
+        "last_login": "2024-10-14T17:27:24Z",
+        "is_superuser": false,
+        "username": "tail",
+        "first_name": "Ms. Tail",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-12T13:45:35Z",
+        "groups": [
+            [
+                "Tail"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$1vqonUhvfprGhXBfnnxU2C$LZYwg094yPINMGwipL1iNYUp5z36Vr9QBOIt3/gQwM0=",
+        "last_login": "2024-10-14T17:06:28Z",
+        "is_superuser": false,
+        "username": "avionics",
+        "first_name": "Ms. Avionics",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-12T13:46:18Z",
+        "groups": [
+            [
+                "Avionics"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$7tRvHUPDtSREuRuU9rltKj$tdImj7zsKYmOfL/TV+lsCezEWmEhCovajUvhJFtYSws=",
+        "last_login": "2024-10-14T17:09:43Z",
+        "is_superuser": false,
+        "username": "assembly",
+        "first_name": "Mr. Assembly",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-10-12T13:48:20Z",
+        "groups": [
+            [
+                "Assembly"
+            ]
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6b0s27spknofy33o2m4ypot3ypd9gr8x",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP-FsyFbXmU9eu83ENilUjU0Ke3J-O-GpAe9zkzmLUI89hKOlrewsLgKJy6_LEV65toFP2K9r5LWum9Lkj2Rp21yWjm_bmf7Nyixlb7lkYgZZyZj9MBKAyL4jJass9GgA5WTITBAfrSQEs2O0WvtrB9UFp8v6Uk3hA:1t06EE:cZCIwUPlPFrJZhE46LCjo6Pr4B_oR3AFLt4GI9IwJBI",
+        "expire_date": "2024-10-27T21:34:18.221Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "9eex2c4ila37vs7qslvdn9s5a6vw2jb6",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP-FsyFbXmU9eu83ENilUjU0Ke3J-O-GpAe9zkzmLUI89hKOlrewsLgKJy6_LEV65toFP2K9r5LWum9Lkj2Rp21yWjm_bmf7Nyixlb7lkYgZZyZj9MBKAyL4jJass9GgA5WTITBAfrSQEs2O0WvtrB9UFp8v6Uk3hA:1t0OZj:y-agnqZYQwTGOK4rlwb3KoZX8bdRXpoWD6DerTqPot4",
+        "expire_date": "2024-10-28T17:09:43.481Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "bbg32urcg7vmy1f7a3c018xk71hascut",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hDITFtw6d4zEJiZStVAUtpV491tky50-997f1MhrksOa5M5TKyuCtXld0uRXlIOwM9YHlVTLcs8JX0o-qRN3yvL-3a6fwc5trzXFu0gBBad6cFZTD524MAAeHJEHTKbJCgGuZdx9A4doBGOQxLaW_X5ArwXN3U:1t06DH:nqlSgkJ6tLSrbEwimfVCnhAUdpPIipzZ84a6q4RdpI8",
+        "expire_date": "2024-10-27T21:33:19.141Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "bjr2gwkl71kwjznm6rwd9wx7mp08py9j",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyFQFqEevfcbmt1llaqBpLQn47_bJj3oHOe9mbcacV3yuDaZxympi7Lq9NsR8lPKDtIDy71qrmWZJ9K7og_a9FCTvK6H-3eQseVt3ZvoMXbARL3ztqMADoADpeisGMFbsmGLgLAzhgUCn50PxOhYENXnC9KBOCU:1t0OrK:sBLgAVgcnAFlcCiUHYHNe77EC6Ha0f45Yqq5kDMyjFg",
+        "expire_date": "2024-10-28T17:27:54.108Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hanqk85rupukc02jwgdlwfkf46a1cavp",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP-FsyFbXmU9eu83ENilUjU0Ke3J-O-GpAe9zkzmLUI89hKOlrewsLgKJy6_LEV65toFP2K9r5LWum9Lkj2Rp21yWjm_bmf7Nyixlb7lkYgZZyZj9MBKAyL4jJass9GgA5WTITBAfrSQEs2O0WvtrB9UFp8v6Uk3hA:1t068G:d6wr6GZr8nfLvlrq2qsh8chBsZnFJPiRBZGfrd46IU0",
+        "expire_date": "2024-10-27T21:28:08.725Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "k51vcl1iu0p9zrd2td20d2zt96o4qny9",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP-FsyFbXmU9eu83ENilUjU0Ke3J-O-GpAe9zkzmLUI89hKOlrewsLgKJy6_LEV65toFP2K9r5LWum9Lkj2Rp21yWjm_bmf7Nyixlb7lkYgZZyZj9MBKAyL4jJass9GgA5WTITBAfrSQEs2O0WvtrB9UFp8v6Uk3hA:1t06Au:kDNnvuRjmqW7Cvfc7EXQYDKQ6CUFmn6k4FD6UqQ7VOE",
+        "expire_date": "2024-10-27T21:30:52.613Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kkouuydmcjzms6ybfcsbyhdisxnqliri",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hDITFtw6d4zEJiZStVAUtpV491tky50-997f1MhrksOa5M5TKyuCtXld0uRXlIOwM9YHlVTLcs8JX0o-qRN3yvL-3a6fwc5trzXFu0gBBad6cFZTD524MAAeHJEHTKbJCgGuZdx9A4doBGOQxLaW_X5ArwXN3U:1t06FR:B2_WvOqfRAxtYrWIW8S0hs2_2SJy86gHY6OfTDwl5q0",
+        "expire_date": "2024-10-27T21:35:33.913Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "w3njhqhlw6cpvnnungxcmhvf59phren0",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hDITFtw6d4zEJiZStVAUtpV491tky50-997f1MhrksOa5M5TKyuCtXld0uRXlIOwM9YHlVTLcs8JX0o-qRN3yvL-3a6fwc5trzXFu0gBBad6cFZTD524MAAeHJEHTKbJCgGuZdx9A4doBGOQxLaW_X5ArwXN3U:1t06SD:SiePkG6vpTGBhEDiV1UQhJUaFLBEaP0Al8O3j39JyQw",
+        "expire_date": "2024-10-27T21:48:45.940Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yx3rwibqc71gyuvl8ki3z6vked3d6z1a",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQAP-FsyFbXmU9eu83ENilUjU0Ke3J-O-GpAe9zkzmLUI89hKOlrewsLgKJy6_LEV65toFP2K9r5LWum9Lkj2Rp21yWjm_bmf7Nyixlb7lkYgZZyZj9MBKAyL4jJass9GgA5WTITBAfrSQEs2O0WvtrB9UFp8v6Uk3hA:1t06Om:A3IvAqd0D24lTGUmz36MwVaeGcW24QDOksjsHeDBZjg",
+        "expire_date": "2024-10-27T21:45:12.952Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "0e06098a218b4e399ec0484aa591e6f6f1554273",
+    "fields": {
+        "user": [
+            "assembly"
+        ],
+        "created": "2024-10-13T21:23:16.412Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "9a77263073782276b661b6d0662b11c7e38bb466",
+    "fields": {
+        "user": [
+            "fuselage"
+        ],
+        "created": "2024-10-13T22:01:52.069Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "a712ad1d67e0803c790bf1f4731997a7b794f1b2",
+    "fields": {
+        "user": [
+            "tail"
+        ],
+        "created": "2024-10-13T11:37:48.836Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "bee9a2e934f93cc8d0cc90728f1810bfb4676bde",
+    "fields": {
+        "user": [
+            "wing"
+        ],
+        "created": "2024-10-14T17:07:51.700Z"
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "e86adb4d33f80a005d2b688ce6c967ece3998464",
+    "fields": {
+        "user": [
+            "avionics"
+        ],
+        "created": "2024-10-14T17:06:28.729Z"
+    }
+},
+{
+    "model": "api.part",
+    "pk": 1,
+    "fields": {
+        "part_name": "Wing"
+    }
+},
+{
+    "model": "api.part",
+    "pk": 2,
+    "fields": {
+        "part_name": "Fuselage"
+    }
+},
+{
+    "model": "api.part",
+    "pk": 3,
+    "fields": {
+        "part_name": "Tail"
+    }
+},
+{
+    "model": "api.part",
+    "pk": 4,
+    "fields": {
+        "part_name": "Avionics"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 4,
+    "fields": {
+        "part": 3,
+        "is_used": false,
+        "aircraft": 1,
+        "producer": [
+            "tail"
+        ],
+        "produced_time": "2024-10-14T16:58:57.609Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 5,
+    "fields": {
+        "part": 3,
+        "is_used": true,
+        "aircraft": 1,
+        "producer": [
+            "tail"
+        ],
+        "produced_time": "2024-10-14T17:14:39.549Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 6,
+    "fields": {
+        "part": 3,
+        "is_used": false,
+        "aircraft": 3,
+        "producer": [
+            "tail"
+        ],
+        "produced_time": "2024-10-14T17:01:00.717Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 7,
+    "fields": {
+        "part": 3,
+        "is_used": false,
+        "aircraft": 2,
+        "producer": [
+            "tail"
+        ],
+        "produced_time": "2024-10-14T17:01:06.511Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 8,
+    "fields": {
+        "part": 3,
+        "is_used": false,
+        "aircraft": 4,
+        "producer": [
+            "tail"
+        ],
+        "produced_time": "2024-10-14T17:01:15.282Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 9,
+    "fields": {
+        "part": 4,
+        "is_used": false,
+        "aircraft": 1,
+        "producer": [
+            "avionics"
+        ],
+        "produced_time": "2024-10-14T17:06:35.519Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 10,
+    "fields": {
+        "part": 4,
+        "is_used": false,
+        "aircraft": 2,
+        "producer": [
+            "avionics"
+        ],
+        "produced_time": "2024-10-14T17:06:40.384Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 11,
+    "fields": {
+        "part": 4,
+        "is_used": false,
+        "aircraft": 3,
+        "producer": [
+            "avionics"
+        ],
+        "produced_time": "2024-10-14T17:06:45.416Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 12,
+    "fields": {
+        "part": 4,
+        "is_used": false,
+        "aircraft": 4,
+        "producer": [
+            "avionics"
+        ],
+        "produced_time": "2024-10-14T17:06:51.126Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 13,
+    "fields": {
+        "part": 4,
+        "is_used": true,
+        "aircraft": 1,
+        "producer": [
+            "avionics"
+        ],
+        "produced_time": "2024-10-14T17:14:39.604Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 14,
+    "fields": {
+        "part": 2,
+        "is_used": true,
+        "aircraft": 1,
+        "producer": [
+            "fuselage"
+        ],
+        "produced_time": "2024-10-14T17:14:39.504Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 15,
+    "fields": {
+        "part": 2,
+        "is_used": false,
+        "aircraft": 3,
+        "producer": [
+            "fuselage"
+        ],
+        "produced_time": "2024-10-14T17:07:18.495Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 16,
+    "fields": {
+        "part": 2,
+        "is_used": false,
+        "aircraft": 2,
+        "producer": [
+            "fuselage"
+        ],
+        "produced_time": "2024-10-14T17:07:22.705Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 17,
+    "fields": {
+        "part": 2,
+        "is_used": false,
+        "aircraft": 4,
+        "producer": [
+            "fuselage"
+        ],
+        "produced_time": "2024-10-14T17:07:26.573Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 18,
+    "fields": {
+        "part": 2,
+        "is_used": false,
+        "aircraft": 4,
+        "producer": [
+            "fuselage"
+        ],
+        "produced_time": "2024-10-14T17:07:33.297Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 19,
+    "fields": {
+        "part": 1,
+        "is_used": true,
+        "aircraft": 1,
+        "producer": [
+            "wing"
+        ],
+        "produced_time": "2024-10-14T17:14:39.450Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 20,
+    "fields": {
+        "part": 1,
+        "is_used": false,
+        "aircraft": 2,
+        "producer": [
+            "wing"
+        ],
+        "produced_time": "2024-10-14T17:08:01.365Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 21,
+    "fields": {
+        "part": 1,
+        "is_used": false,
+        "aircraft": 3,
+        "producer": [
+            "wing"
+        ],
+        "produced_time": "2024-10-14T17:08:06.447Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 22,
+    "fields": {
+        "part": 1,
+        "is_used": false,
+        "aircraft": 4,
+        "producer": [
+            "wing"
+        ],
+        "produced_time": "2024-10-14T17:08:10.185Z"
+    }
+},
+{
+    "model": "api.producedpart",
+    "pk": 23,
+    "fields": {
+        "part": 1,
+        "is_used": false,
+        "aircraft": 3,
+        "producer": [
+            "wing"
+        ],
+        "produced_time": "2024-10-14T17:08:15.457Z"
+    }
+},
+{
+    "model": "api.aircraft",
+    "pk": 1,
+    "fields": {
+        "aircraft_name": "TB2"
+    }
+},
+{
+    "model": "api.aircraft",
+    "pk": 2,
+    "fields": {
+        "aircraft_name": "TB3"
+    }
+},
+{
+    "model": "api.aircraft",
+    "pk": 3,
+    "fields": {
+        "aircraft_name": "AKINCI"
+    }
+},
+{
+    "model": "api.aircraft",
+    "pk": 4,
+    "fields": {
+        "aircraft_name": "KIZILELMA"
+    }
+},
+{
+    "model": "api.production",
+    "pk": 1,
+    "fields": {
+        "aircraft": 1,
+        "used_wing": 19,
+        "used_fuselage": 14,
+        "used_tail": 5,
+        "used_avionics": 13,
+        "is_produced": true,
+        "producer": [
+            "assembly"
+        ],
+        "produced_time": "2024-10-14T17:26:59.967Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-10-12T13:32:20.716Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "1",
+        "object_repr": "TB2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-10-12T13:32:51.396Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "2",
+        "object_repr": "TB3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-10-12T13:35:06.680Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "3",
+        "object_repr": "AKINCI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-10-12T13:40:04.066Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "4",
+        "object_repr": "KIZILELMA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-10-12T13:41:03.016Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "3",
+        "object_repr": "Wing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-10-12T13:41:31.056Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "2",
+        "object_repr": "Fuselage",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-10-12T13:41:41.669Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "4",
+        "object_repr": "Tail",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-10-12T13:41:51.616Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "1",
+        "object_repr": "Avionics",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-10-12T13:42:12.121Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "object_id": "5",
+        "object_repr": "Assembly",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-10-12T13:43:31.265Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "wing_member",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-10-12T13:44:12.949Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "wing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-10-12T13:45:02.293Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "fuselage_member",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-10-12T13:45:15.520Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "fuselage",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-10-12T13:45:36.108Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "tail_member",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-10-12T13:45:45.368Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "tail",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-10-12T13:46:18.644Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "avionics_member",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-10-12T13:46:28.067Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "avionics",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-10-12T13:48:20.762Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "assembly_member",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-10-12T13:48:26.431Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "assembly_member",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-10-12T13:48:37.055Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "assembly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-10-12T13:49:12.296Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "api",
+            "aircraft"
+        ],
+        "object_id": "1",
+        "object_repr": "TB2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-10-12T13:49:16.826Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "api",
+            "aircraft"
+        ],
+        "object_id": "2",
+        "object_repr": "TB3",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-10-12T13:49:24.474Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "api",
+            "aircraft"
+        ],
+        "object_id": "3",
+        "object_repr": "AKINCI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-10-12T13:49:33.982Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "api",
+            "aircraft"
+        ],
+        "object_id": "4",
+        "object_repr": "KIZILELMA",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-10-12T14:15:50.774Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "api",
+            "part"
+        ],
+        "object_id": "1",
+        "object_repr": "Wing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-10-12T14:15:59.542Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "api",
+            "part"
+        ],
+        "object_id": "2",
+        "object_repr": "Fuselage",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-10-12T14:16:04.783Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "api",
+            "part"
+        ],
+        "object_id": "3",
+        "object_repr": "Tail",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-10-12T14:16:10.608Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "api",
+            "part"
+        ],
+        "object_id": "4",
+        "object_repr": "Avionics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-10-13T13:06:44.268Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "api",
+            "producedpart"
+        ],
+        "object_id": "3",
+        "object_repr": "Tail",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-10-14T17:28:26.840Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "assembly",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-10-14T17:28:35.801Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "avionics",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-10-14T17:28:44.354Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "fuselage",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-10-14T17:28:54.493Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "tail",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-10-14T17:29:01.473Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "wing",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+    }
+}
+]
