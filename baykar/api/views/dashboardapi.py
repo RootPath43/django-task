@@ -12,6 +12,8 @@ from rest_framework import status, permissions
 from api.serializer.producedpartserializer import ProducedPartSerializer
 from api.serializer.productionserializer import ProductionSerializer
 from django.db.models import Q
+from drf_yasg.utils import swagger_auto_schema
+from drf_yasg import openapi
 
 # dashboar içi doldurlur. ve yeni eklenecek veriler buraya post req ile gelir
 
@@ -20,6 +22,12 @@ class DashboardAPIView(APIView):
     authentication_classes = [TokenAuthentication]
     permission_classes = [permissions.IsAuthenticated]
 
+    @swagger_auto_schema(
+        operation_description="Bu API, GET requestinde kullanıcının ekibine göre\
+            uçak parçalarını liste olarak döner ya da birleştirilmiş uçakları liste olarak döner",
+        responses={200: openapi.Response('Başarılı'),
+                   404: openapi.Response('Hata')},
+    )
     def get(self, request):
         try:
 
@@ -42,13 +50,19 @@ class DashboardAPIView(APIView):
 
         except Exception as err:
 
-            return Response(status=500)
+            return Response(status=404)
 
     def get_group(self):
         # kullanıcının ekibi elde edilir.
         group_name = self.request.user.groups.all()[0].name
         return group_name
-
+    @swagger_auto_schema(
+        operation_description="Bu API, POST requestinde kullanıcının ekibine göre\
+            uçak parçalarını  oluşturur  ya da uçağı birleştirir. POSt request olarak sadece üretilecek\
+                parçanın uçak modeli ya da birleştirilecek uçağın modeli alınır.",
+        responses={200: openapi.Response('Başarılı'),
+                   404: openapi.Response('Hata')},
+    )
     def post(self, request, *args, **kwargs):  # yeni obje oluşturulduğunda tetiklenen yer
         group = self.get_group()
         if group != "Assembly":
@@ -57,13 +71,13 @@ class DashboardAPIView(APIView):
             if result:
                 return Response({"message": "Success"}, status=200)
             else:
-                return Response({"message": "Fail"}, status=200)
+                return Response({"message": "Fail"}, status=404)
         else:
             result = self.assemble_product(request, group)
             if result:
                 return Response({"message": "Success"}, status=200)
 
-        return Response({"message": "Not enough aircraft part"}, status=500)
+        return Response({"message": "Not enough aircraft part"}, status=404)
 
     def produce_part(self, request, group):
         try:

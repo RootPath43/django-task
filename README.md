@@ -5,11 +5,13 @@ Proje docker üzerinden çalıştırmak için:
     1. Başlangıçta Docker-compose bilgisayarınızda kurulu olduğuna emin olunuz. İndirmek için 
      https://docs.docker.com/compose/install/ linkinden faydalanabilirsiniz.
     2. Projeyi githubdan klonlayınız.
-    3.Proje dosyasını klonladıktan sonra,  "sudo docker-compose up --build" komutu ile çalıştırabilirsiniz.
-    4.Sonrasında açacağınız yeni bir terminalde "sudo docker-compose exec web python manage.py migrate"  komutu ile migration dosyasındaki tabloları, db'ye ekliyoruz.
-    5.Daha sonra "sudo docker-compose exec web python manage.py loaddata mockdata.json" komutu ile mockdatayı db'ye eklemiş oluyoruz.
-    6. Unit Testleri çalıştırmak için  "sudo docker-compose exec web python manage.py test"  komutuyla var olan bütün unit testleri çalıştırabilirsiniz.
-    7.Aşağıdaki kullanıcı adı ve şifrelerle giriş yapabilirsiniz.
+    3.Proje dosyasını klonladıktan sonra,  "docker-compose up --build" komutu ile çalıştırabilirsiniz.(Bundan sonraki komutlarda permission hatası alıyorsanız sudo ile çalıştırabilirsiniz)
+    4.Sonrasında açacağınız yeni bir terminalde " docker-compose exec web python manage.py migrate"  komutu ile migration dosyasındaki tabloları, db'ye ekliyoruz.
+    5.Daha sonra " docker-compose exec web python manage.py loaddata mockdata.json" komutu ile mockdatayı db'ye eklemiş oluyoruz.
+    6. Unit Testleri çalıştırmak için  " docker-compose exec web python manage.py test"  komutuyla var olan bütün unit testleri çalıştırabilirsiniz.
+    7.Aşağıdaki kullanıcı adı ve şifrelerle giriş yapabilirsiniz. http://127.0.0.1:8000/ dan erişebilirsiniz.
+    8. http://127.0.0.1:8000/api/swagger/'dan ve http://127.0.0.1:8000/api/redoc/ 'dan swagger ui'da bulunan API dokümantasyonuna göz atabilirsiniz.
+    
 
     username:tail password:baykartail ->tail ekibinde
     username:avionics password:baykaravionics ->avionics ekibinde
@@ -107,7 +109,7 @@ Test dosyları hem api hem de pages app klasörlerinde mevcuttur.
 └── requirements.txt
 ```
 Çalışma Yapısı
-Kullanıcıların her biri django'da bulunan groups (authorization) tablosunda bir ekibe dahil.5 ekip mevcut (tail, wing, fuselage, assembly,avionics). Arayüz olarak request atan kullanıcının ekibine göre dashboard değişmektedir. Ekleme, güncelleme ve çıkarma api'larında işlemler view üzerinden gerçekleşmektedir.
+Kullanıcıların her biri django'da bulunan groups (authorization) tablosunda bir ekibe dahil.5 ekip mevcut (tail, wing, fuselage, assembly,avionics). Arayüz olarak request atan kullanıcının ekibine göre dashboard değişmektedir. Ekleme, güncelleme ve çıkarma api'larında işlemler view üzerinden gerçekleşmektedir. Login yapıldıktan sonra token iletilir.API iletilen token üzerinden çalışır. Kullanıcı değiştirileceği zaman login ekranına gelip giriş yapılacak kişinin kullanıcı adı ve şifresi girilebilir. Dashboard ekranında bulunan datatable'ın her bir sırasına tıkladığınızda onu güncellemeniz için başka bir sayfaya yönlendirecektir. O sayfada sadece güncelleme değil, silme işlemi de gerçekleştirebilirsiniz.
 
 Fotoğraflar
 ![login](<Screenshot from 2024-10-14 22-30-55.png>)
