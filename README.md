@@ -24,7 +24,7 @@ Api app klasörü içeriisnde ise kullanılan apilar mevcuttur.Get, Update, Crea
 
 Test dosyları hem api hem de pages app klasörlerinde mevcuttur. 
 
-
+```bash
 .   
 ├── api
 │   ├── admin.py
@@ -105,7 +105,7 @@ Test dosyları hem api hem de pages app klasörlerinde mevcuttur.
 │       ├── loginpage.py
 │       └── updatepage.py
 └── requirements.txt
-
+```
 Çalışma Yapısı
 Kullanıcıların her biri django'da bulunan groups (authorization) tablosunda bir ekibe dahil.5 ekip mevcut (tail, wing, fuselage, assembly,avionics). Arayüz olarak request atan kullanıcının ekibine göre dashboard değişmektedir. Ekleme, güncelleme ve çıkarma api'larında işlemler view üzerinden gerçekleşmektedir.
 
