@@ -1,6 +1,7 @@
 # django-task
 KURULUM
-    Proje docker üzerinden çalıştırmak için:
+Proje docker üzerinden çalıştırmak için:
+
     1. Başlangıçta Docker-compose bilgisayarınızda kurulu olduğuna emin olunuz. İndirmek için 
      https://docs.docker.com/compose/install/ linkinden faydalanabilirsiniz.
     2. Projeyi githubdan klonlayınız.
@@ -17,11 +18,11 @@ KURULUM
     username:assembly password:baykarassembly -> assembly ekibinde
 
 DOSYA YAPISI
-    Uygulamada api ve pages adlı iki app bulunmaktador.Pages app klasörü içerisinde MVT tasarım deseni kullanılarak dört farklı sayfa oluşturulmuştur. Template dili olarak jinja kullanılmıştır.
+Uygulamada api ve pages adlı iki app bulunmaktador.Pages app klasörü içerisinde MVT tasarım deseni kullanılarak dört farklı sayfa oluşturulmuştur. Template dili olarak jinja kullanılmıştır.
 
-    Api app klasörü içeriisnde ise kullanılan apilar mevcuttur.Get, Update, Create,Delete(CRUD) operasyonlarının gerçekleştiği ve db tablolarının bulunduğu yerdir.
+Api app klasörü içeriisnde ise kullanılan apilar mevcuttur.Get, Update, Create,Delete(CRUD) operasyonlarının gerçekleştiği ve db tablolarının bulunduğu yerdir.
 
-    Test dosyları hem api hem de pages app klasörlerinde mevcuttur. 
+Test dosyları hem api hem de pages app klasörlerinde mevcuttur. 
 
 
 .   
@@ -106,7 +107,7 @@ DOSYA YAPISI
 └── requirements.txt
 
 Çalışma Yapısı
-    Kullanıcıların her biri django'da bulunan groups (authorization) tablosunda bir ekibe dahil.5 ekip mevcut (tail, wing, fuselage, assembly,avionics). Arayüz olarak request atan kullanıcının ekibine göre dashboard değişmektedir. Ekleme, güncelleme ve çıkarma api'larında işlemler view üzerinden gerçekleşmektedir.
+Kullanıcıların her biri django'da bulunan groups (authorization) tablosunda bir ekibe dahil.5 ekip mevcut (tail, wing, fuselage, assembly,avionics). Arayüz olarak request atan kullanıcının ekibine göre dashboard değişmektedir. Ekleme, güncelleme ve çıkarma api'larında işlemler view üzerinden gerçekleşmektedir.
 
 Fotoğraflar
 ![login](<Screenshot from 2024-10-14 22-30-55.png>)
